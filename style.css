@@ -1,0 +1,71 @@
+
+/* Mengatur gaya umum untuk halaman web */
+body {
+    background: linear-gradient(to right, #742815, #feb47b); /* Gradien dari kiri ke kanan */
+    background-size: cover; /* Menyesuaikan gambar agar menutupi seluruh layar */
+    background-position: center; /* Menempatkan gambar di tengah */
+    background-repeat: no-repeat; /* Mencegah pengulangan gambar */
+    font-family: Arial, sans-serif; /* Mengatur font umum untuk halaman web */
+    margin: 0; /* Menghapus margin default dari body */
+    padding: 0; /* Menghapus padding default dari body */
+}
+
+
+/* Mengatur gambar profil */
+.container .profile .profile-picture {
+    width: 200px; /* Mengatur lebar gambar */
+    height: auto; /* Memastikan tinggi gambar otomatis */
+    max-width: 100%; /* Memastikan gambar tidak lebih besar dari kontainer */
+    border-radius: 50%; /* Membulatkan gambar menjadi lingkaran */
+    margin-bottom: 10px; /* Memberikan jarak bawah pada gambar */
+}
+
+/* Mengatur kontainer utama */
+.container {
+    text-align: center; /* Mengatur semua teks di dalam kontainer menjadi tengah */
+    margin: 0 auto;
+    max-width: 600px; /* Mengatur lebar maksimum kontainer */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Memberikan efek bayangan pada kontainer */
+    border-radius: 10px; /* Membulatkan sudut kontainer */
+    background-color: #d0d92a; /* Memberikan warna latar belakang pada kontainer */
+}
+
+/* Mengatur nama profil */
+.profile-name {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 23px; /* Memberikan jarak bawah pada nama profil */
+}
+
+/* Mengatur tautan */
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Memberikan jarak antar tautan */
+}
+
+/* Mengatur gaya tautan */
+.link {
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff; /* Mengatur warna teks tautan */
+    background-color: #007bff; /* Mengatur warna latar belakang tautan */
+    padding: 10px 20px;
+    border-radius: 5px; /* Membulatkan sudut tautan */
+    transition: background-color 0.3s; /* Menambahkan efek transisi pada perubahan warna latar belakang */
+}
+
+/* Mengatur efek hover pada tautan */
+.link:hover {
+    background-color: #aa00b3; /* Mengatur warna latar belakang saat hover */
+}
+
+body {
+    background-color: #a92727; /* Warna latar belakang solid */
+}
+
+body {
+    background: linear-gradient(to right, #ff7e5f, #4807de); /* Gradien dari kiri ke kanan */
+}
+
